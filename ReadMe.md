@@ -1,7 +1,7 @@
 # QOQ ANALYSIS (SQL) - 40%
 This part of the test will include data manipulation exercise.
 within the drive folder shared with you you will find 2 relevant files:
-_site_category_source.csv_
+_site_category_source.csv_ , 
 _site_monthly_visits.csv_
 Details on the data can be found here:
 [https://drive.google.com/drive/folders/1BD5SDHFtxZoaYGthxOfw2COPP9VruWSA?usp=sharing](https://drive.google.com/drive/folders/1BD5SDHFtxZoaYGthxOfw2COPP9VruWSA?usp=sharing)
@@ -57,7 +57,10 @@ The most convenient way to solve this question would be by using Python’s Pand
 - For all the visits in the file, calculate cohorts (groups) of visits durations (in seconds) of all of the users, meaning that for each group, you should present the number of users it contains as well as their share out of the total users.
 You will need to convert the timeonsite from milliseconds to seconds
 You can choose the cohorts yourself according to what you think fits the data, feel free to add a short explanation in a comment if there’s any particular reason you chose it.
-  -An output for example is:
+
+> It is important to chose cohorts that cover the greater part othe the data distribution. The cohort need to be equali divided to be comparable.
+
+  An output for example is:
 
 | Visit duration cohort	| 0-20 | 20-40 | 40-60 | 60-100	| 100-200 |	200+ |
 |-----------------------|------|-------|-------|--------|---------|------|
@@ -65,3 +68,12 @@ You can choose the cohorts yourself according to what you think fits the data, f
 | Share of users        | 35%  | 30%   | 17%   | 13%	| 2%	  | 3%   |
 
 Create a visualization to display these results.
+
+> The script in the : VISITS ANALYSIS-timeblok.sql
+> | Visit duration cohort [sec]	| 0-100  | 101-200 | 201-300 | 301-400| 401-500 | 501-600 |601-700 | 701-800 |8001-900| 901-1000 | 1000+ |
+  |-----------------------------|--------|---------|---------|--------|---------|---------|--------|--------|---------|----------|-------|
+  | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038   | 1681   | 1001    | 869      | 7326  |
+  | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3.26%  | 1,81%  | 1,08%   | 0,93%    | 7.87% |
+
+> For chosing right visualization is neccessary to chosse the whai is the imporrtnant iformation. FOr showing the distribution of the users in the dependet of the time block :
+For showing the user distrubuted in the whole :
