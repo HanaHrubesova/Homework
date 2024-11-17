@@ -38,7 +38,7 @@ You can use any visualization tool you prefer.
 
 > Graph - For visulaization I chose a webside that had decline of the visits over third and tforth quater.
 
- ! [Graph] (https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
+ ! [Graph](https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
 
 # VISITS ANALYSIS - PYTHON / SQL - 40%
 This part of the test will include a data manipulation exercise.
