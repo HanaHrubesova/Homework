@@ -1,4 +1,4 @@
-# QOQ ANALYSIS (SQL) - 40%
+# QoQ ANALYSIS (SQL) - 40%
 This part of the test will include data manipulation exercise.
 within the drive folder shared with you you will find 2 relevant files:
 _site_category_source.csv_ , 
@@ -20,7 +20,7 @@ QoQ positive change of visits means that the site's visits have increased betwee
 quarter.
 > The script is in the file : QOQ ANALYSIS.sql
 
-> Output table is :
+> Output table is : 
 
 - Expected output schema:
 Country, Country_Name, Site, Category, prev_q_visits, next_q_visits, qoq_visits_change
@@ -35,7 +35,9 @@ Based on the table you’ve created above - create an interesting graph to prese
 anything you think that could be interesting about the data, including time based trends, leading categories by country
 or most failing sites per month.
 You can use any visualization tool you prefer.
-> Graph :
+
+> Graph - For visulaization I chose a webside that had decline of the visits over third and tforth quater.
+ ![Graph] (https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
 
 # VISITS ANALYSIS - PYTHON / SQL - 40%
 This part of the test will include a data manipulation exercise.
@@ -71,19 +73,19 @@ Create a visualization to display these results.
 
 > The script in the : VISITS ANALYSIS-timeblok.sql
 
->The data:
+> The data:
 
   | Visit duration cohort [sec]	| 0-100  | 101-200 | 201-300 | 301-400| 401-500 | 501-600 | 601-700 | 701-800 |801-900 | 901-1000 | 1000+ |
   |-----------------------------|--------|---------|---------|--------|---------|---------|---------|---------|--------|----------|-------|
   | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038    | 1681    | 1001   | 869      | 7326  |
   | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3,26%   | 1,81%   | 1,08%  | 0,93%    | 7.87% |
 
-> FoChoosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the time block :
+> Choosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the time block :
 To show the user distributed in the dependent of the whole od users :
 
 # PYTHON DATA MANIPULATION - 20% 
 This part of the test will include a datwa manipulation exercise using Python over the
-following file: _airbnb_clickstream_sample.csv_
+following file: airbnb_clickstream_sample.csv_
 
 OSS - On Site Search is the definition of the searched keywords within the website itself
 For example when searching for “Shoes” on Amazon you get to the following page:
