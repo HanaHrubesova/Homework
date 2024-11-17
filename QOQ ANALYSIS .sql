@@ -1,55 +1,3 @@
-SELECT
-    country,
-    v.site,
-    v.visit,
-    LAG(v.visit) OVER (
-        PARTITION BY
-            v.site,
-            v.country
-        ORDER BY
-            v.qt,
-            v.y
-    ) AS prev_qt,
-    LEAD(v.visit) OVER (
-        PARTITION BY
-            v.site,
-            v.country
-        ORDER BY
-            v.qt,
-            v.y
-    ) AS next_qt,
-    v.visit-LAG(v.visit) OVER (
-        PARTITION BY
-            v.site,
-            v.country
-    ) AS QoQ,
-    v.qt,
-    s.category,
-    c.name
-FROM
-    (
-        SELECT
-            site,
-            country,
-            CONCAT('20', YEAR) AS y,
-            DATE_PART('quarter', MAKE_DATE(YEAR, MONTH, 1)) AS qt,
-            SUM(visits) AS visit
-        FROM
-            public.site_monthly_visits
-        GROUP BY
-            YEAR,
-            qt,
-            site,
-            country,
-            site
-        ORDER BY
-            site,
-            country,
-            qt
-    ) v
-    INNER JOIN public.site_category_source s ON v.site=s.site
-    INNER JOIN public.country c ON v.country=c.countrycode
-    ------------------------------------------------------
 WITH
     help AS (
         SELECT
@@ -60,8 +8,7 @@ WITH
                     v.site,
                     v.country
                 ORDER BY
-                    v.qt,
-                    v.y
+                    v.qt
             ) AS prev_qt, --previous quater
             v.visit AS next_qt,
             v.visit-LAG(v.visit) OVER (

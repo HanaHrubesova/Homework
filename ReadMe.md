@@ -20,7 +20,7 @@ QoQ positive change of visits means that the site's visits have increased betwee
 quarter.
 > The script is in the file : QOQ ANALYSIS.sql
 
-> Output table is : 
+> Output table is : top10_visit_page.csv
 
 - Expected output schema:
 Country, Country_Name, Site, Category, prev_q_visits, next_q_visits, qoq_visits_change
