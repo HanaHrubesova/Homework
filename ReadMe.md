@@ -37,6 +37,7 @@ or most failing sites per month.
 You can use any visualization tool you prefer.
 
 > Graph - For visulaization I chose a webside that had decline of the visits over third and tforth quater.
+
  ![Graph] (https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
 
 # VISITS ANALYSIS - PYTHON / SQL - 40%
