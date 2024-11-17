@@ -73,10 +73,31 @@ Create a visualization to display these results.
 
 >The data:
 
-  | Visit duration cohort [sec]	| 0-100  | 101-200 | 201-300 | 301-400| 401-500 | 501-600 |601-700 | 701-800 |8001-900| 901-1000 | 1000+ |
-  |-----------------------------|--------|---------|---------|--------|---------|---------|--------|--------|---------|----------|-------|
-  | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038   | 1681   | 1001    | 869      | 7326  |
-  | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3.26%  | 1,81%  | 1,08%   | 0,93%    | 7.87% |
+  | Visit duration cohort [sec]	| 0-100  | 101-200 | 201-300 | 301-400| 401-500 | 501-600 | 601-700 | 701-800 |801-900 | 901-1000 | 1000+ |
+  |-----------------------------|--------|---------|---------|--------|---------|---------|---------|---------|--------|----------|-------|
+  | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038    | 1681    | 1001   | 869      | 7326  |
+  | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3,26%   | 1,81%   | 1,08%  | 0,93%    | 7.87% |
 
-> For chosing right visualization is neccessary to chosse the whai is the imporrtnant iformation. FOr showing the distribution of the users in the dependet of the time block :
-For showing the user distrubuted in the whole :
+> FoChoosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the time block :
+To show the user distributed in the dependent of the whole od users :
+
+# PYTHON DATA MANIPULATION - 20% 
+This part of the test will include a datwa manipulation exercise using Python over the
+following file: _airbnb_clickstream_sample.csv_
+
+OSS - On Site Search is the definition of the searched keywords within the website itself
+For example when searching for “Shoes” on Amazon you get to the following page:
+[https://www.amazon.com/s?k=shoes&ref=nb_sb_noss_2](https://www.amazon.com/s?k=shoes&ref=nb_sb_noss_2)
+
+Additional example when searching for a team / event on StabHub you get the following
+page:
+[https://www.stubhub.com/find/s/?q=maccabi%20haifa](https://www.stubhub.com/find/s/?q=maccabi%20haifa)
+
+Note that in each case there is a parameter on the results URL that indicates the
+keywords that were searched.
+
+The task is, using Python, to find the top searched keywords in the AIRBNB
+clickstream. You will need to extract all keywords and count their instances, showing
+the top 10-20 results.
+
+> The code is in the : PYTHON DATA MANIPULATION.py
