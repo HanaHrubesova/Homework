@@ -1,7 +1,7 @@
 WITH
     time_blok AS (
         SELECT
-            CASE
+            CASE -- Selecting the cohorts
                 WHEN timeonsite<=100000 THEN '0-100s'
                 WHEN timeonsite>100000
                 AND timeonsite<=200000 THEN '101-200s'
@@ -22,7 +22,7 @@ WITH
                 WHEN timeonsite>900000
                 AND timeonsite<=1000000 THEN '901-1000s'
                 WHEN timeonsite>1000000 THEN '1000s+'
-            END AS blok, -- Selecting the timeblock 
+            END AS blok,
             COUNT(users) AS user_count
         FROM
             public.zoom_visit
