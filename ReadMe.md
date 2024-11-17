@@ -18,9 +18,9 @@ Use the tables you’ve created above.
 - Top 10 sites per country by QoQ (Quarter over Quarter) positive change of visits.
 QoQ positive change of visits means that the site's visits have increased between the last quarter and the current
 quarter.
-> The script is in the file : QOQ ANALYSIS.sql
+> The script is in the file : [QOQ ANALYSIS.sql](https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
 
-> Output table is : top10_visit_page.csv
+> Output table is : [top10_visit_page.csv](https://github.com/HanaHrubesova/Homework/blob/main/to10_visit_page.csv)
 
 - Expected output schema:
 Country, Country_Name, Site, Category, prev_q_visits, next_q_visits, qoq_visits_change
@@ -55,7 +55,7 @@ The most convenient way to solve this question would be by using Python’s Pand
   - Number of unique users per day and overall
   - Average number of (unique) pages viewed within the site between the start of a session to a successful upgrade, overall
 
-> Script are in the : VISITS ANALYSIS.sql
+> Script are in the : [VISITS ANALYSIS.sql]()
 
 - For all the visits in the file, calculate cohorts (groups) of visits durations (in seconds) of all of the users, meaning that for each group, you should present the number of users it contains as well as their share out of the total users.
 You will need to convert the timeonsite from milliseconds to seconds
@@ -72,7 +72,7 @@ You can choose the cohorts yourself according to what you think fits the data, f
 
 Create a visualization to display these results.
 
-> The script in the : VISITS ANALYSIS-timeblok.sql
+> The script in the : [VISITS ANALYSIS-timeblok.sql]()
 
 > The data:
 
@@ -81,8 +81,10 @@ Create a visualization to display these results.
   | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038    | 1681    | 1001   | 869      | 7326  |
   | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3,26%   | 1,81%   | 1,08%  | 0,93%    | 7.87% |
 
-> Choosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the time block :
-To show the user distributed in the dependent of the whole od users :
+> Choosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the cohorts:
+ ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20analysis_1.png)
+To show the user distributed in the dependent of the whole od users:
+ ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20Analysis.png)
 
 # PYTHON DATA MANIPULATION - 20% 
 This part of the test will include a datwa manipulation exercise using Python over the
@@ -103,4 +105,4 @@ The task is, using Python, to find the top searched keywords in the AIRBNB
 clickstream. You will need to extract all keywords and count their instances, showing
 the top 10-20 results.
 
-> The code is in the : PYTHON DATA MANIPULATION.py
+> The code is in the : [PYTHON DATA MANIPULATION.py](https://github.com/HanaHrubesova/Homework/blob/main/PYTHON%20DATA%20MANIPULATION.py)
