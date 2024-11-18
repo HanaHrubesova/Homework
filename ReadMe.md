@@ -1,8 +1,8 @@
 # QoQ ANALYSIS (SQL) - 40%
 This part of the test will include data manipulation exercise.
 within the drive folder shared with you you will find 2 relevant files:
-_site_category_source.csv_ , 
-_site_monthly_visits.csv_
+[_site_category_source.csv_](https://github.com/HanaHrubesova/Homework/blob/main/site_category_source.csv), 
+[_site_monthly_visits.csv_](https://github.com/HanaHrubesova/Homework/blob/main/site_monthly_visits.csv)
 Details on the data can be found here:
 [https://drive.google.com/drive/folders/1BD5SDHFtxZoaYGthxOfw2COPP9VruWSA?usp=sharing](https://drive.google.com/drive/folders/1BD5SDHFtxZoaYGthxOfw2COPP9VruWSA?usp=sharing)
 
@@ -43,7 +43,7 @@ You can use any visualization tool you prefer.
 
 # VISITS ANALYSIS - PYTHON / SQL - 40%
 This part of the test will include a data manipulation exercise.
-Within the drive folder shared with you you will find the following file: _zoom.us_visits_05_20.csv_
+Within the drive folder shared with you you will find the following file: [_zoom.us_visits_05_20.csv_](https://github.com/HanaHrubesova/Homework/blob/main/zoom.us_visits_05_20.csv)
 You will need to locate the relevant visits and calculate the requested KPIs below.
 Note:
 The most convenient way to solve this question would be by using Python’s Pandas library, but if you are not feeling comfortable with it, you may also choose to analyse the data in another way or even combined (SQL/Python code).
@@ -57,7 +57,7 @@ The most convenient way to solve this question would be by using Python’s Pand
   - Average number of (unique) pages viewed within the site between the start of a session to a successful upgrade, overall
 
  > Results
- 
+
 |                  	      | per day | overall | 
 |-------------------------|---------|---------|
 | Number of visits        | 3,13    |   72    | 
