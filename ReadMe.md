@@ -94,7 +94,7 @@ Create a visualization to display these results.
 > Choosing the right visualization is necessary to choose the what is the important information. To show the distribution of the users in the dependent of the times:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20analysis_1.png)
 
-> To show the user distributed in the dependent of the whole of users:
+> To show the user distributed in the dependent of the whole of usersbase:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20Analysis.png)
 
 # PYTHON DATA MANIPULATION - 20% 
