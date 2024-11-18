@@ -36,9 +36,10 @@ anything you think that could be interesting about the data, including time base
 or most failing sites per month.
 You can use any visualization tool you prefer.
 
-> Graph - For visulaization I chose a webside that had decline of the visits over third and tforth quater.
+> Graph—For visualization, I chose a website with declining visits over the third and fourth quarters.
 
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/QoQ%20Analysis.png)
+
 
 # VISITS ANALYSIS - PYTHON / SQL - 40%
 This part of the test will include a data manipulation exercise.
@@ -48,7 +49,7 @@ Note:
 The most convenient way to solve this question would be by using Python’s Pandas library, but if you are not feeling comfortable with it, you may also choose to analyse the data in another way or even combined (SQL/Python code).
 
 **For the visits data in the csv file:**
-- Find visits that include a pageview URL (an item in “pages” list column), that contains the specific string:_“upgradeSuccess”_.
+- Find visits that include a pageview URL (an item in “pages” list column), that contains the specific string: _“upgradeSuccess”_.
   It doesn’t matter how many times it appears in a single visit, only if it was found at least once.
   For those visits calculate the following metrics and present in a single table/dataframe:
   - Number of visits per day and overall
@@ -61,7 +62,7 @@ The most convenient way to solve this question would be by using Python’s Pand
 You will need to convert the timeonsite from milliseconds to seconds
 You can choose the cohorts yourself according to what you think fits the data, feel free to add a short explanation in a comment if there’s any particular reason you chose it.
 
-> It is important to chose cohorts that cover the greater part othe the data distribution. The cohort need to be equali divided to be comparable.
+> Choosing cohorts that cover the greater part of the data distribution is important. The cohort needs to be equally divided to be comparable.
 
   An output for example is:
 
@@ -81,9 +82,10 @@ Create a visualization to display these results.
   | Number of users             | 40527  | 299     | 1655    | 29324  | 3060	| 1626    | 3038    | 1681    | 1001   | 869      | 7326  |
   | Share of users              | 43,53% | 3,22%   | 1,78%   | 31,5%  | 3,29%   | 1,75%   | 3,26%   | 1,81%   | 1,08%  | 0,93%    | 7.87% |
 
-> Choosing the right visualization is necessary to choose the what is the important information. For showing the distribution of the users in the dependent of the cohorts:
+> Choosing the right visualization is necessary to choose the what is the important information. To show the distribution of the users in the dependent of the times:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20analysis_1.png)
-To show the user distributed in the dependent of the whole od users:
+ 
+To show the user distributed in the dependent of the whole of users:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20Analysis.png)
 
 # PYTHON DATA MANIPULATION - 20% 
