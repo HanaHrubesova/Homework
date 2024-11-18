@@ -56,24 +56,32 @@ The most convenient way to solve this question would be by using Python’s Pand
   - Number of unique users per day and overall
   - Average number of (unique) pages viewed within the site between the start of a session to a successful upgrade, overall
 
-> Script are in the : [VISITS ANALYSIS.sql]()
+ > Results
+ |                     	  | per day | overall | 
+ |-------------------------|---------|---------|
+ | Number of visits        | 3,13    |   72    | 
+ | Number of unique users  | 1,61    |   37    | 
+
+> Average number of (unique) pages viewed within the site between the start of a session to a successful upgrade is 9,9, overall is  739.
+
+> Script are in the : [VISITS ANALYSIS.sql](https://github.com/HanaHrubesova/Homework/blob/main/VISITS%20ANALYSIS.sql)
 
 - For all the visits in the file, calculate cohorts (groups) of visits durations (in seconds) of all of the users, meaning that for each group, you should present the number of users it contains as well as their share out of the total users.
 You will need to convert the timeonsite from milliseconds to seconds
 You can choose the cohorts yourself according to what you think fits the data, feel free to add a short explanation in a comment if there’s any particular reason you chose it.
 
-> Choosing cohorts that cover the greater part of the data distribution is important. The cohort needs to be equally divided to be comparable.
+> Choosing cohorts that cover the greater part of the data distribution is important. The cohort needs to be equally divided to be   comparable.
 
   An output for example is:
 
-| Visit duration cohort	| 0-20 | 20-40 | 40-60 | 60-100	| 100-200 |	200+ |
-|-----------------------|------|-------|-------|--------|---------|------|
-| Number of users       | 1024 | 877   | 506   | 405	| 54	  | 76   |
-| Share of users        | 35%  | 30%   | 17%   | 13%	| 2%	  | 3%   |
+ | Visit duration cohort	| 0-20 | 20-40 | 40-60 | 60-100	| 100-200 |	200+ |
+ |-----------------------|------|-------|-------|--------|---------|------|
+ | Number of users       | 1024 | 877   | 506   | 405	| 54	  | 76   |
+ | Share of users        | 35%  | 30%   | 17%   | 13%	| 2%	  | 3%   |
 
 Create a visualization to display these results.
 
-> The script in the : [VISITS ANALYSIS-timeblok.sql]()
+> The script in the : [VISITS ANALYSIS-timeblok.sql](https://github.com/HanaHrubesova/Homework/blob/main/VISITS%20ANALYSIS-timeblok.sql)
 
 > The data:
 
@@ -84,8 +92,8 @@ Create a visualization to display these results.
 
 > Choosing the right visualization is necessary to choose the what is the important information. To show the distribution of the users in the dependent of the times:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20analysis_1.png)
- 
-To show the user distributed in the dependent of the whole of users:
+
+> To show the user distributed in the dependent of the whole of users:
  ![Graph](https://github.com/HanaHrubesova/Homework/blob/main/Visits%20Analysis.png)
 
 # PYTHON DATA MANIPULATION - 20% 
