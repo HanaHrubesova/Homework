@@ -57,6 +57,7 @@ The most convenient way to solve this question would be by using Python’s Pand
   - Average number of (unique) pages viewed within the site between the start of a session to a successful upgrade, overall
 
  > Results
+ 
 |                  	      | per day | overall | 
 |-------------------------|---------|---------|
 | Number of visits        | 3,13    |   72    | 
